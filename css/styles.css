@@ -17,7 +17,9 @@ body {
   margin: auto;
 }
 
+
 /* HEADER */
+
 header {
   display: flex;
   flex-wrap: wrap;
@@ -33,13 +35,17 @@ header h1 {
   font-size: 20px;
 }
 
+
 /* SECTION */
+
 .diaphragm {
   background: #7d97ad;
   height: 3px;
 }
 
+
 /* SECTION > PROFILE AND WALLPAPPER */
+
 .profile-container {
   position: relative;
   width: 100%;
@@ -52,7 +58,7 @@ header h1 {
 .profile-pic {
   width: 100%;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9), 0 1px 2px rgba(0, 0, 0, 0.91);
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
 }
 
 .about-dp {
@@ -78,7 +84,7 @@ header h1 {
   height: 125px;
   bottom: -60px;
   left: 50%;
-  transform: translate(-50%,0);
+  transform: translate(-50%, 0);
   border: 4px solid white;
   border-radius: 3px;
   cursor: pointer;
@@ -88,7 +94,9 @@ header h1 {
   height: 50px;
 }
 
+
 /* SECTION > PROJECTS */
+
 h2 {
   font-size: 20px;
 }
@@ -139,27 +147,27 @@ a:hover {
 
 .card {
   border-radius: 2px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
 }
 
 .card:hover {
   transform: scale(1.02);
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
+
 /* RESPONSIVE CSS */
+
 @media screen and (min-width:600px) {
   header h1 {
     font-size: 25px;
   }
-
   .logo {
     width: 75px;
   }
-
   .profile-pic-container {
-    transform: translate(0,0);
+    transform: translate(0, 0);
     width: 125px;
     height: 125px;
     bottom: 20px;
@@ -172,15 +180,12 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
   }
-
   .project {
     width: 50%;
   }
-
   .main-container {
     width: 740px;
   }
-
   .profile-pic-container {
     width: 170px;
     height: 170px;
@@ -191,17 +196,17 @@ a:hover {
   .project {
     width: 33.333%;
   }
-
   .main-container {
     width: 975px;
   }
-
   header h1 {
     font-size: 30px;
   }
 }
 
+
 /* POPUP  */
+
 .popup-container {
   width: 100%;
   height: 100%;
@@ -222,7 +227,7 @@ a:hover {
   top: -1000px;
   transition: 0.5s;
   max-width: 600px;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
 
 .popup-header {

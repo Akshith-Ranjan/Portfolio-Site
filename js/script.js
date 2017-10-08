@@ -115,6 +115,10 @@ function displayAllProjects() {
 	setText(".project-container", projectHTML);
 }
 
+/**
+ * @description Uncomment the below function to change user info dynamically,
+ dont forget to make changes in resume.js file.Also uncomment the function call
+ */
 /*
 function setProfileInfo(){
   let basicInfo = resume.basics;

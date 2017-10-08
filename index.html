@@ -8,14 +8,14 @@
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+    <script src="js/resume.js" defer></script>
+    <script src="js/script.js" defer></script>
     <title>Portfolio</title>
   </head>
   <body>
     <div class="main-container">
       <header>
-        <div>
-          <img class="logo" src="images/logo.png" alt="Logo">
-        </div>
+        <img class="logo" src="images/logo.png" alt="Logo">
         <div class="user-info">
           <h1 class="name">Akshith R. Pejavar</h1>
           <p class="label">FRONT-END NINJA</p>
@@ -24,7 +24,9 @@
       <section class="body-container">
         <hr class="diaphragm">
         <div class="profile-container">
-          <img class="wallpaper-pic" src="images/wallpaper.jpg" alt="wallpaper">
+          <img class="wallpaper-pic"
+            srcset="images/wallpaper.jpg 700w, images/wallpaper-mobile.jpg 450w"
+            sizes="100vw" src="images/wallpaper.jpg" alt="wallpaper">
           <div class="profile-pic-container" data-id="about">
             <img class="profile-pic" src="images/profile.jpg"
               alt="Profile Picture">
@@ -37,15 +39,11 @@
           <!-- All projects card will be substituted here by Javascript-->
         </div>
       </section>
-      <!--footer>
-        <h2>footer</h2>
-        </footer-->
     </div>
     <div class="popup-container">
       <div class="popup">
+        <!-- All popup info will be substituted here by Javascript-->
       </div>
     </div>
-    <script src="js/resume.js"></script>
-    <script src="js/script.js"></script>
   </body>
 </html>
