@@ -20,7 +20,7 @@ let resume={
       {
         "network": "Facebook",
         "username": "Akshith Ranjan",
-        "url": "https://www.facebook.com/akshith.ranjan.1"
+        "url": "https://www.facebook.com/ranjan.akshith"
       },
       {
         "network": "Github",
@@ -30,7 +30,7 @@ let resume={
       {
         "network": "linkedin",
         "username": "Akshith Pejavar",
-        "url": "www.linkedin.com/in/akshith-pejavar"
+        "url": "https://www.linkedin.com/in/Akshith-Ranjan"
       }
     ]
   },

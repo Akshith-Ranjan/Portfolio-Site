@@ -41,7 +41,7 @@ function showPopup() {
 			`<p>${resume.basics.label}</p>` +
 			`<p>${resume.basics.summary}</p>`;
 		resume.basics.profiles.forEach(function(profile) {
-			links += `<a href="${profile.url}">${profile.network}</a>`;
+			links += `<a target="_blank" href="${profile.url}">${profile.network}</a>`;
 		});
 		//for project info
 	} else {
